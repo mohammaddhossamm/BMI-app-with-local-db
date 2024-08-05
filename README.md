@@ -1,16 +1,14 @@
-# bmi_app
+## BMI Calculator
 
-A new Flutter project.
+This app can calculate the BMI and has some features:
 
-## Getting Started
+* The app displays BMI value and body conditions.
+* The app displays the healthy BMI value for a user.
+* This application calculates the weight the user must lose or gain to obtain the appropriate weight.
+* The user can save this value using local data.
+* The user can edit and delete notes.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Features used:
+* Clean Code
+* Cubit as state management
+* sqflite for local data storage
