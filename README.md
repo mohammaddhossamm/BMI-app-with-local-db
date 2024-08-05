@@ -8,7 +8,7 @@ This app can calculate the BMI and has some features:
 * The user can save this value using local data.
 * The user can edit and delete notes.
 
-### Features used:
-* Clean Code
+### Features :
 * Cubit as state management
 * sqflite for local data storage
+* Clean Code
