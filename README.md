@@ -17,3 +17,6 @@ BMI Calculator is an application designed to calculate body mass index and displ
 - **Sqflite** for local data storage
 - Clean code 
 - Responsive UI design
+
+### Hello World UI
+<img src="https://i.postimg.cc/2SHWtKw3/bmi.jpg" width="700" height="466">
