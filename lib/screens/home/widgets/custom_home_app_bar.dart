@@ -18,8 +18,7 @@ customHomeAppBar(context){
               );
             },
             icon: const Icon(
-              Icons.bookmark_outlined,
-              color: Colors.indigo,
+              Icons.bookmark,
             ),
           ),
         ],
