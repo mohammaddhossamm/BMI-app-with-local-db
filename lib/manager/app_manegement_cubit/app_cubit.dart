@@ -41,12 +41,12 @@ class BmiCubit extends Cubit<BmiStates> {
 
   void mins({required bool isWeight}) {
     if (isWeight == true) {
-      if (weight > 10) {
+      if (weight > 40) {
         weight--;
         emit(BmiChangeWeight());
       }
     } else {
-      if (age > 1) {
+      if (age > 13) {
         age--;
         emit(BmiChangeAge());
       }
