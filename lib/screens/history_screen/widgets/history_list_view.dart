@@ -15,7 +15,7 @@ class HistoryListView extends StatelessWidget {
     return BlocBuilder<DataCubit, DataStates>(
       builder: (BuildContext context, state) {
         var historyDataCubit = DataCubit.get(context);
-        return historyDataCubit.dataList.isNotEmpty
+        return historyDataCubit.dataList.isEmpty
             ? const CustomEmptyWidget()
             : Padding(
                 padding: const EdgeInsets.all(16.0),

@@ -16,7 +16,7 @@ class CustomEmptyWidget extends StatelessWidget {
           ),
           Text('No History',
           style: TextStyle(
-            fontSize: 25,
+            fontSize: 22,
             color: Colors.grey[400],
           ),
           ),
